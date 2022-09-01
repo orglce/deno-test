@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+
+<div id="div-scrolling"></div>
+<div id="div-search">
+    <input id="input-search" type="text">
+    <button id="button-search">Search</button>
+    <div id="div-search-occurances">
+        <label id="label-num-occurance">0</label>
+        od
+        <label id="label-count-occurance">0</label>
+    </div>
+    <button id="button-search-up">Nazaj</button>
+    <button id="button-search-down">Naprej</button>
+</div>
+
+<canvas id="myChart" width="400" height="400"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+<script type="application/javascript" src="ts/variables.js"></script>
+<script type="application/javascript" src="ts/getStats.js"></script>
+
+<!--<script type="application/javascript" src="test.ts"></script>-->
+<script type="application/javascript" src="ts/scrolling.js"></script>
+
+</body>
+</html>

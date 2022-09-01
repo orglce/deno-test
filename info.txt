@@ -1,0 +1,23 @@
+receipt_timestamp - ajda seen
+reactions_last_seen - luka seen
+date 
+date_sent/date_received
+_id
+body
+delivery_receipt_count - kdo je poslou
+MMS st NULL/0
+SMS reply_path_present
+
+
+najdalsa fraza k se pojav vec k dvakrat
+
+regex search
+
+
+sms, mms, reaction
+
+poisc linke pa slike
+number of reactions
+
+
+show glede na emoji
